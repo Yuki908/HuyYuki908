@@ -1,0 +1,12 @@
+
+body, html, body {
+    margin: 0;
+    padding: 0;
+    background: url(./img/r.gif) no-repeat center center fixed;
+    background-size: cover;
+   }
+   img {
+       margin-top: 10px;
+       width: 120px;
+       height: 120px;
+       margin-left: 10px;}

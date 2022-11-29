@@ -1,0 +1,160 @@
+
+body, html, body {
+ margin: 0;
+ padding: 0;
+ background: url(../img/giphy.gif) no-repeat center center fixed;
+ background-size: cover;
+}
+img {
+    margin-top: 10px;
+    width: 120px;
+    height: 120px;
+    margin-left: 10px;
+
+}
+header {
+    margin-top: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header > img {
+    width: 9em;
+    height: 9em;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    box-shadow: rgb(237, 219, 20) 0px 2px 8px 0px;
+}
+header > h1 {
+    display: inline-block;
+    font-size:  2em;
+    font-weight: bold;
+    border-radius: 2em;
+    padding: 0.3em 0.6em;
+    border: 2px solid solid #fffa;
+    background: #0628d4;
+    background: linear-gradient(90deg, #94f40e,rgb(153, 0, 255), #ffc400,rgb(0, 179, 255));
+}
+ul {
+   box-sizing: border-box;
+   list-style: none;
+   margin: 0 auto;
+   padding: 2em;
+}
+ul > li {
+    align-items: center;
+    display: flex;
+    display: inline-block;
+    background: linear-gradient(90deg, #cfb50b, #c63af0);
+    border-radius: 6em;
+}
+ul > li > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 0em;
+}
+a {
+   color: black;
+   text-decoration: none; 
+   font-size: 20px;
+   align-items: center;
+   padding: 5px;
+}
+ul {
+    text-align: center;
+    
+}
+.mau1 {
+    background:  linear-gradient(to right, #0909f2, #f206f2);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.mau2 {
+    background:  linear-gradient(to right, #e609f2, #f20616);
+    -webkit-background-clip: text;
+    color: transparent;
+
+}  
+.mau3 {
+    background:  linear-gradient(to right, #576bed, #0628d4);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.mau4 {
+    background:  linear-gradient(to right, #0602ff, #ff0055);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+a:hover{
+    color: #000;
+    background: #7fffd4;
+    box-shadow: 0 0 10px #7fffd4,
+                0 0 25px #7fffd4,
+                0 0 50px #7fffd4;
+     border-radius: 6em;
+}
+@-webkit-keyframes my {
+    0% { color: #ff0000; }
+    25% { color: rgb(246, 255, 0); } 
+    50% { color: rgb(13, 255, 0);  }
+    75% { color: #1e00ff;  }  
+    100% { color: rgb(255, 0, 247); } 
+
+}
+@-moz-keyframes my { 
+    0% { color: #ff0000; }
+    25% { color: rgb(246, 255, 0); } 
+    50% { color: rgb(13, 255, 0);  }
+    75% { color: #1e00ff;  }  
+    100% { color: rgb(255, 0, 247); } 
+
+}
+@-o-keyframes my { 
+    0% { color: #ff0000; }
+    25% { color: rgb(246, 255, 0); } 
+    50% { color: rgb(13, 255, 0);  }
+    75% { color: #1e00ff;  }  
+    100% { color: rgb(255, 0, 247); } 
+
+}
+@keyframes my { 
+    0% { color: #ff0000; }
+    25% { color: rgb(246, 255, 0); } 
+    50% { color: rgb(13, 255, 0);  }
+    75% { color: #1e00ff;  }  
+    100% { color: rgb(255, 0, 247); } 
+} 
+.nhay {
+        font-size:24px;
+        font-weight:bold;
+    -webkit-animation: my 700ms infinite;
+    -moz-animation: my 700ms infinite; 
+    -o-animation: my 700ms infinite; 
+    animation: my 700ms infinite;
+}
+.chugioithieu {
+    color: rgb(255, 0, 47);
+    font-size: 50px;
+    text-shadow:
+    0 0 7px rgb(255, 255, 255),
+    0 0 10px #fff, 
+    0 0 21px #fff, 
+    0 0 42px #0fa, 
+    0 0 82px #0fa, 
+    0 0 92px #0fa, 
+    0 0 102px #0fa, 
+    0 0 151px #0fa ;}
+footer {
+    text-align: center;
+    font-size: 20px;
+    position:absolute;
+    bottom: 0;
+    background: linear-gradient(90deg, #cfb50b, #c63af0);
+    height : 85px;
+   width: 100vw;
+    font-family: "Open Sans";
+    padding: 3px;
+    color: #fff;}
